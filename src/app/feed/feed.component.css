@@ -1,0 +1,21 @@
+:host{
+    background:#ccc;
+}
+
+
+.cont{
+    margin: 0 auto;
+}
+.mat-button{
+    position: absolute;
+    right: 0px;
+    margin: 0;
+    font-size: 14px;
+}
+
+.mat-raised-button{
+    width: 25%;
+    left: 50%;
+    transform: translate(-50%);
+    background: #33C4FF !important;
+}

@@ -1,0 +1,29 @@
+.example-icon {
+    padding: 0 14px;
+  }
+  
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+  
+  .mat-toolbar,
+  .mat-toolbar-row
+  {
+    height: 15vh;  
+    padding-left:0; 
+    background: #33C4FF;
+  }
+
+  .mat-toolbar-row #margin{
+    width: 25%;
+    background: #fff;
+    height: 100%;
+  }
+
+  
+  .mat-toolbar-row #header_title{
+    width: 75%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+  }

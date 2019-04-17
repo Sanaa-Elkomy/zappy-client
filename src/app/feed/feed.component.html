@@ -1,0 +1,6 @@
+<div class="cont" *ngFor="let tweet of tweets">
+  <app-tweet [childMessage]="tweet"></app-tweet> 
+</div>
+<div>
+  <button mat-raised-button color="primary" (click)='OnNext()'>More ...</button>
+</div>
